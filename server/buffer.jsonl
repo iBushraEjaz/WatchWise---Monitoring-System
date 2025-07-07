@@ -1,0 +1,7 @@
+{"activity": "idle", "box": [215, 318, 492, 479], "occupied": true, "station_id": "station_1", "timestamp": "2025-05-18T19:42:58.547544+05:00"}
+{"activity": "vacant", "occupied": false, "station_id": "station_1", "timestamp": "2025-05-18T19:43:04.922257+05:00"}
+{"activity": "vacant", "occupied": false, "station_id": "station_1", "timestamp": "2025-05-18T19:43:07.273025+05:00"}
+{"activity": "vacant", "occupied": false, "station_id": "station_1", "timestamp": "2025-05-18T19:43:09.579889+05:00"}
+{"activity": "idle", "box": [215, 318, 492, 479], "occupied": true, "station_id": "station_1", "timestamp": "2025-05-18T19:43:12.676038+05:00"}
+{"activity": "vacant", "occupied": false, "station_id": "station_1", "timestamp": "2025-05-18T19:43:15.071354+05:00"}
+{"activity": "idle", "box": [215, 318, 492, 479], "occupied": true, "station_id": "station_1", "timestamp": "2025-05-18T19:43:18.528470+05:00"}

@@ -1,0 +1,19 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 240px;
+  background-color: #004D40;
+  color: #FFFFFF;
+  height: 100vh;
+  padding-top: 20px;
+  position: fixed;
+  align-self: left;
+
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar .MuiListItemIcon-root {
+  color: #FFFFFF;
+}
+.sidebar .MuiTypography-root,
+.sidebar .MuiListItemText-root {
+  color: #FFFFFF;
+}

@@ -1,0 +1,126 @@
+/* Universal Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: white;
+  color: #FFFFFF; /* White */
+}
+.Adm{
+
+  height: 50px;
+  background-color: #AFE1AF;
+}
+.Admin{
+  font-size: xx-large;
+
+  font-weight: bolder;
+  background-color: transparent; /* Sunshine */
+  color: #FFFFFF; /* White */
+  border: none;
+  padding: 12px;
+  align-content: right;
+  width: 12%;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 2;
+}
+
+.Admin:hover {
+color: 	#FADA5E;}
+/* Container for the Sign-in Form */
+.signin-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.signin-form {
+  background-color: white; 
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px; /* Maximum width for the form */
+  box-shadow: 2px 8px 9px #6C648B ;
+  text-align: center;
+  height: 500px;
+  transform: translateY(-20px); /* Slightly move the form up initially */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Animate opacity and movement */
+  opacity: 1;                 /* Fade-in effect */
+  transform: translateY(0);   /* Bring the form to its original position */
+
+}
+
+
+/* Form Heading */
+.signin-form h2{
+  margin-top: 60px;
+
+  margin-bottom: 20px;
+  color: #210466; /* White */
+}
+
+/* Input Field Styling */
+.signin-form input[type="email"], .signin-form input[type="password"] {
+  width: 80%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #6C648B; /* Lavender */
+}
+
+.signin-form input[type="email"]:focus, .signin-form input[type="password"]:focus {
+  outline: none;
+  border: 1px solid 	#FADA5E; /* Sunshine */
+}
+
+/* Sign-in Button Styling */
+.signin-form .signin-button {
+  background-color:#FFDEAD; /* Sunshine */
+  color: #210466;
+  font-weight: bold;
+
+  border: none;
+  padding: 12px;
+  width: 40%;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin-form .signin-button:hover {
+  background-color: 	#FADA5E; /* Slightly lighter Sunshine */
+}
+
+/* Google Sign-in Button Alignment */
+.google-signin {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.google-signin button {
+  width: 100%;
+  background-color: #6C648B; /* Lavender */
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 0;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-signin button:hover {
+  background-color: 	#FADA5E; /* Slightly lighter Lavender */
+}

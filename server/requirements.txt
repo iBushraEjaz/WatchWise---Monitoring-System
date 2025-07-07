@@ -1,0 +1,8 @@
+flask
+flask-socketio
+opencv-python
+ultralytics
+tensorflow
+pymongo
+python-dotenv
+eventlet

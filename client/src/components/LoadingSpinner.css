@@ -1,0 +1,25 @@
+/* src/components/LoadingSpinner.css */
+.loading-spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Light overlay */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  .loading-spinner {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    animation: spin 1s linear infinite; /* Optional: Add spinning effect */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

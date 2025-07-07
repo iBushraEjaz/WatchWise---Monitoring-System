@@ -1,0 +1,179 @@
+/* Universal Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #F5F5F5;
+  color: #333; /* Dark gray text for readability */
+}
+
+.dev {
+  height: 50px;
+  background-color: #004D40;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.developer {
+  font-size: 14px;
+  font-weight: bold;
+  color: #B2DFDB;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.developer:hover {
+  color: #FDD835;
+  border-color: #FDD835;
+}
+
+.video-heading {
+  color: #004D40;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Container for the Sign-in Form */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.signin-form {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  padding: 40px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 1.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.signin-form h2 {
+  margin-bottom: 20px;
+  color: #004D40;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* Input Field Styling */
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.signin-form input[type="email"]:focus,
+.signin-form input[type="password"]:focus {
+  outline: none;
+  border-color: #004D40;
+}
+
+/* Sign-in Button Styling */
+.signin-form .signin-button {
+  background-color: #004D40;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 0;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.signin-form .signin-button:hover {
+  background-color: #00796B;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Google Sign-in Button Alignment */
+.google-signin {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.google-signin button {
+  width: 100%;
+  background-color: #004D40;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 0;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s, box-shadow 0.3s;
+}
+
+.google-signin button:hover {
+  background-color: #00796B;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Form and Button Layout Enhancements */
+.signin-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signin-form input {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.signin-form .signin-button,
+.google-signin button {
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Additional Professional Styling for Links */
+.signin-container a {
+  color: #004D40;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.signin-container a:hover {
+  color: #00796B;
+}

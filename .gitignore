@@ -1,0 +1,71 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+out/
+
+# Cache and temporary files
+.cache/
+.tmp/
+.vscode/
+
+# Static bundled files
+*.bundle.js
+*.map
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Next.js or other frameworks (if applicable)
+.next/
+.nuxt/
+.svelte-kit/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.bak
+*.orig
+*.backup
+*.tmp
+
+# Generated coverage files
+coverage/
+*.lcov
+
+# Testing
+*.test.js
+*.spec.js
+.cypress/
+
+# ESLint, Prettier
+.eslintcache
+.prettiercache
+
+# GitHub Actions
+.github/workflows/
+
+# Ignore files with sensitive data or settings
+firebase-debug.log
+firebase-debug.*.log
