@@ -17,5 +17,6 @@ WatchWise is a real time AI-powered employee monitoring system that tracks works
 - **Deep Learning Models:** YOLOv8, VGG16 (TensorFlow)  
 - **Realtime Input:** WebCam
 - **Communication:** Socket.IO
-![Overview image](client/src/components/ui)
+- 
+![Overview image](client/src/components/ui/jhs.jpg)
 
